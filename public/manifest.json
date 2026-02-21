@@ -18,54 +18,34 @@
     "GameInfo"
   ],
   "data": {
-    "start_window": "background",
+    "start_window": "in_game",
     "hotkeys": {
-      "sample_app_ts_showhide": {
+      "show_overlay": {
         "title": "Show/Hide In-Game Window",
         "action-type": "toggle",
         "default": "Ctrl+F"
       }
     },
-    "protocol_override_domains": {
-      "googlesyndication": "http"
-    },
-    "externally_connectable": {
-      "matches": [
-        "http://*.overwolf.com",
-        "https://*.overwolf.com",
-        "https://*.google-analytics.com",
-        "http://*.google-analytics.com",
-        "https://www.googleapis.com"
-      ]
-    },
     "force_browser": "user",
     "windows": {
+      "in_game": {
+        "file": "in_game/index.html",
+        "in_game_only": true,
+        "focus_game_takeover": "ReleaseOnHidden",
+        "focus_game_takeover_release_hotkey": "show_overlay",
+        "resizable": false,
+        "transparent": true,
+        "override_on_update": true
+      },
       "background": {
-        "file": "background.html",
+        "file": "background/index.html",
         "background_optimization": true,
         "is_background_page": true
       },
       "desktop": {
-        "file": "desktop.html",
+        "file": "desktop/index.html",
         "desktop_only": true,
         "native_window": true,
-        "resizable": true,
-        "transparent": true,
-        "override_on_update": true,
-        "size": {
-          "width": 1212,
-          "height": 699
-        },
-        "min_size": {
-          "width": 1212,
-          "height": 699
-        }
-      },
-      "in_game": {
-        "file": "in_game.html",
-        "in_game_only": true,
-        "focus_game_takeover": "ReleaseOnHidden",
-        "focus_game_takeover_release_hotkey": "sample_app_ts_showhide",
         "resizable": true,
         "transparent": true,
         "override_on_update": true,
@@ -82,66 +62,18 @@
     "game_targeting": {
       "type": "dedicated",
       "game_ids": [
-        21216,
-        7764,
-        5426,
-        21634,
-        8032,
-        10844,
-        10906,
-        10826,
-        21404,
-        7212,
-        21640,
-        7314,
-        21626,
-        8954
+        27168
       ]
     },
-    "game_events": [
-      21216,
-      7764,
-      5426,
-      21634,
-      8032,
-      10844,
-      10906,
-      10826,
-      21404,
-      7212,
-      21640,
-      7314,
-      21626,
-      8954
-    ],
-    "launch_events": [
-      {
-        "event": "GameLaunch",
-        "event_data": {
-          "game_ids": [
-            21216,
-            7764,
-            5426,
-            21634,
-            8032,
-            10844,
-            10906,
-            10826,
-            21404,
-            7212,
-            21640,
-            7314,
-            21626,
-            8954
-          ]
-        },
-        "start_minimized": true
-      }
-    ],
     "developer": {
       "enable_auto_refresh": true,
       "reload_delay": 1000,
       "filter": "*.*"
+    },
+    "externally_connectable": {
+      "matches": [
+        "http://localhost:3000/*"
+      ]
     }
   }
 }

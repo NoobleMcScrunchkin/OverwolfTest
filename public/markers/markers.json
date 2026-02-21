@@ -1,0 +1,583 @@
+{
+    "airshaft": {
+        "width": 33,
+        "height": 44,
+        "x": 33,
+        "y": 0,
+        "pixelRatio": 1
+    },
+    "cargo_elevator": {
+        "width": 33,
+        "height": 44,
+        "x": 132,
+        "y": 44,
+        "pixelRatio": 1
+    },
+    "field_depot": {
+        "width": 33,
+        "height": 44,
+        "x": 0,
+        "y": 88,
+        "pixelRatio": 1
+    },
+    "landmark": {
+        "width": 33,
+        "height": 44,
+        "x": 66,
+        "y": 132,
+        "pixelRatio": 1
+    },
+    "location": {
+        "width": 33,
+        "height": 44,
+        "x": 165,
+        "y": 132,
+        "pixelRatio": 1
+    },
+    "locked_door": {
+        "width": 33,
+        "height": 44,
+        "x": 198,
+        "y": 132,
+        "pixelRatio": 1
+    },
+    "metro_station": {
+        "width": 33,
+        "height": 44,
+        "x": 132,
+        "y": 176,
+        "pixelRatio": 1
+    },
+    "raider_camp": {
+        "width": 33,
+        "height": 44,
+        "x": 198,
+        "y": 264,
+        "pixelRatio": 1
+    },
+    "raider_hatch": {
+        "width": 33,
+        "height": 44,
+        "x": 231,
+        "y": 264,
+        "pixelRatio": 1
+    },
+    "security_breach": {
+        "width": 33,
+        "height": 44,
+        "x": 297,
+        "y": 264,
+        "pixelRatio": 1
+    },
+    "merchant": {
+        "width": 33,
+        "height": 44,
+        "x": 66,
+        "y": 176,
+        "pixelRatio": 1
+    },
+    "npc": {
+        "width": 33,
+        "height": 44,
+        "x": 0,
+        "y": 220,
+        "pixelRatio": 1
+    },
+    "collectible": {
+        "width": 33,
+        "height": 44,
+        "x": 165,
+        "y": 44,
+        "pixelRatio": 1
+    },
+    "ammo_box": {
+        "width": 33,
+        "height": 44,
+        "x": 66,
+        "y": 0,
+        "pixelRatio": 1
+    },
+    "arc_courier": {
+        "width": 33,
+        "height": 44,
+        "x": 165,
+        "y": 0,
+        "pixelRatio": 1
+    },
+    "arc_husk": {
+        "width": 33,
+        "height": 44,
+        "x": 198,
+        "y": 0,
+        "pixelRatio": 1
+    },
+    "arc_probe": {
+        "width": 33,
+        "height": 44,
+        "x": 231,
+        "y": 0,
+        "pixelRatio": 1
+    },
+    "backpack": {
+        "width": 33,
+        "height": 44,
+        "x": 264,
+        "y": 0,
+        "pixelRatio": 1
+    },
+    "baron_husk": {
+        "width": 33,
+        "height": 44,
+        "x": 297,
+        "y": 0,
+        "pixelRatio": 1
+    },
+    "container": {
+        "width": 33,
+        "height": 44,
+        "x": 198,
+        "y": 44,
+        "pixelRatio": 1
+    },
+    "field_crate": {
+        "width": 33,
+        "height": 44,
+        "x": 297,
+        "y": 44,
+        "pixelRatio": 1
+    },
+    "grenade_tube": {
+        "width": 33,
+        "height": 44,
+        "x": 132,
+        "y": 88,
+        "pixelRatio": 1
+    },
+    "item": {
+        "width": 33,
+        "height": 44,
+        "x": 0,
+        "y": 132,
+        "pixelRatio": 1
+    },
+    "key": {
+        "width": 33,
+        "height": 44,
+        "x": 33,
+        "y": 132,
+        "pixelRatio": 1
+    },
+    "loose_loot": {
+        "width": 33,
+        "height": 44,
+        "x": 231,
+        "y": 132,
+        "pixelRatio": 1
+    },
+    "medical_box": {
+        "width": 33,
+        "height": 44,
+        "x": 0,
+        "y": 176,
+        "pixelRatio": 1
+    },
+    "security_locker": {
+        "width": 33,
+        "height": 44,
+        "x": 0,
+        "y": 308,
+        "pixelRatio": 1
+    },
+    "tactical_box": {
+        "width": 33,
+        "height": 44,
+        "x": 198,
+        "y": 308,
+        "pixelRatio": 1
+    },
+    "toolbox": {
+        "width": 33,
+        "height": 44,
+        "x": 264,
+        "y": 308,
+        "pixelRatio": 1
+    },
+    "weapon_crate": {
+        "width": 33,
+        "height": 44,
+        "x": 33,
+        "y": 352,
+        "pixelRatio": 1
+    },
+    "agave": {
+        "width": 33,
+        "height": 44,
+        "x": 0,
+        "y": 0,
+        "pixelRatio": 1
+    },
+    "apricot": {
+        "width": 33,
+        "height": 44,
+        "x": 99,
+        "y": 0,
+        "pixelRatio": 1
+    },
+    "candleberries": {
+        "width": 33,
+        "height": 44,
+        "x": 99,
+        "y": 44,
+        "pixelRatio": 1
+    },
+    "fruit_basket": {
+        "width": 33,
+        "height": 44,
+        "x": 66,
+        "y": 88,
+        "pixelRatio": 1
+    },
+    "great_mullein": {
+        "width": 33,
+        "height": 44,
+        "x": 99,
+        "y": 88,
+        "pixelRatio": 1
+    },
+    "lemons": {
+        "width": 33,
+        "height": 44,
+        "x": 132,
+        "y": 132,
+        "pixelRatio": 1
+    },
+    "moss": {
+        "width": 33,
+        "height": 44,
+        "x": 264,
+        "y": 176,
+        "pixelRatio": 1
+    },
+    "mushroom": {
+        "width": 33,
+        "height": 44,
+        "x": 297,
+        "y": 176,
+        "pixelRatio": 1
+    },
+    "olives": {
+        "width": 33,
+        "height": 44,
+        "x": 33,
+        "y": 220,
+        "pixelRatio": 1
+    },
+    "prickly_pear": {
+        "width": 33,
+        "height": 44,
+        "x": 99,
+        "y": 264,
+        "pixelRatio": 1
+    },
+    "hidden_bunker": {
+        "width": 33,
+        "height": 44,
+        "x": 198,
+        "y": 88,
+        "pixelRatio": 1
+    },
+    "hidden_bunker_antennae": {
+        "width": 33,
+        "height": 44,
+        "x": 231,
+        "y": 88,
+        "pixelRatio": 1
+    },
+    "mission": {
+        "width": 33,
+        "height": 44,
+        "x": 198,
+        "y": 176,
+        "pixelRatio": 1
+    },
+    "mission_objective": {
+        "width": 33,
+        "height": 44,
+        "x": 231,
+        "y": 176,
+        "pixelRatio": 1
+    },
+    "arc": {
+        "width": 33,
+        "height": 44,
+        "x": 132,
+        "y": 0,
+        "pixelRatio": 1
+    },
+    "bastion": {
+        "width": 33,
+        "height": 44,
+        "x": 0,
+        "y": 44,
+        "pixelRatio": 1
+    },
+    "bombardier": {
+        "width": 33,
+        "height": 44,
+        "x": 33,
+        "y": 44,
+        "pixelRatio": 1
+    },
+    "boss": {
+        "width": 33,
+        "height": 44,
+        "x": 66,
+        "y": 44,
+        "pixelRatio": 1
+    },
+    "enemy": {
+        "width": 33,
+        "height": 44,
+        "x": 264,
+        "y": 44,
+        "pixelRatio": 1
+    },
+    "fireball": {
+        "width": 33,
+        "height": 44,
+        "x": 33,
+        "y": 88,
+        "pixelRatio": 1
+    },
+    "hornet": {
+        "width": 33,
+        "height": 44,
+        "x": 297,
+        "y": 88,
+        "pixelRatio": 1
+    },
+    "leaper": {
+        "width": 33,
+        "height": 44,
+        "x": 99,
+        "y": 132,
+        "pixelRatio": 1
+    },
+    "matriarch": {
+        "width": 33,
+        "height": 44,
+        "x": 297,
+        "y": 132,
+        "pixelRatio": 1
+    },
+    "pop": {
+        "width": 33,
+        "height": 44,
+        "x": 66,
+        "y": 264,
+        "pixelRatio": 1
+    },
+    "queen": {
+        "width": 33,
+        "height": 44,
+        "x": 132,
+        "y": 264,
+        "pixelRatio": 1
+    },
+    "rocketeer": {
+        "width": 33,
+        "height": 44,
+        "x": 264,
+        "y": 264,
+        "pixelRatio": 1
+    },
+    "sentinel": {
+        "width": 33,
+        "height": 44,
+        "x": 33,
+        "y": 308,
+        "pixelRatio": 1
+    },
+    "shredder": {
+        "width": 33,
+        "height": 44,
+        "x": 66,
+        "y": 308,
+        "pixelRatio": 1
+    },
+    "snitch": {
+        "width": 33,
+        "height": 44,
+        "x": 99,
+        "y": 308,
+        "pixelRatio": 1
+    },
+    "surveyor": {
+        "width": 33,
+        "height": 44,
+        "x": 165,
+        "y": 308,
+        "pixelRatio": 1
+    },
+    "tick": {
+        "width": 33,
+        "height": 44,
+        "x": 231,
+        "y": 308,
+        "pixelRatio": 1
+    },
+    "turret": {
+        "width": 33,
+        "height": 44,
+        "x": 297,
+        "y": 308,
+        "pixelRatio": 1
+    },
+    "wasp": {
+        "width": 33,
+        "height": 44,
+        "x": 0,
+        "y": 352,
+        "pixelRatio": 1
+    },
+    "easter_egg": {
+        "width": 33,
+        "height": 44,
+        "x": 231,
+        "y": 44,
+        "pixelRatio": 1
+    },
+    "metro_entrance": {
+        "width": 33,
+        "height": 44,
+        "x": 99,
+        "y": 176,
+        "pixelRatio": 1
+    },
+    "miscellaneous": {
+        "width": 33,
+        "height": 44,
+        "x": 165,
+        "y": 176,
+        "pixelRatio": 1
+    },
+    "placeholder_1": {
+        "width": 33,
+        "height": 44,
+        "x": 66,
+        "y": 220,
+        "pixelRatio": 1
+    },
+    "placeholder_2": {
+        "width": 33,
+        "height": 44,
+        "x": 99,
+        "y": 220,
+        "pixelRatio": 1
+    },
+    "placeholder_3": {
+        "width": 33,
+        "height": 44,
+        "x": 132,
+        "y": 220,
+        "pixelRatio": 1
+    },
+    "placeholder_4": {
+        "width": 33,
+        "height": 44,
+        "x": 165,
+        "y": 220,
+        "pixelRatio": 1
+    },
+    "placeholder_5": {
+        "width": 33,
+        "height": 44,
+        "x": 198,
+        "y": 220,
+        "pixelRatio": 1
+    },
+    "placeholder_6": {
+        "width": 33,
+        "height": 44,
+        "x": 231,
+        "y": 220,
+        "pixelRatio": 1
+    },
+    "placeholder_7": {
+        "width": 33,
+        "height": 44,
+        "x": 264,
+        "y": 220,
+        "pixelRatio": 1
+    },
+    "placeholder_8": {
+        "width": 33,
+        "height": 44,
+        "x": 297,
+        "y": 220,
+        "pixelRatio": 1
+    },
+    "placeholder_9": {
+        "width": 33,
+        "height": 44,
+        "x": 0,
+        "y": 264,
+        "pixelRatio": 1
+    },
+    "player_spawn": {
+        "width": 33,
+        "height": 44,
+        "x": 33,
+        "y": 264,
+        "pixelRatio": 1
+    },
+    "supply_call_station": {
+        "width": 33,
+        "height": 44,
+        "x": 132,
+        "y": 308,
+        "pixelRatio": 1
+    },
+    "zipline": {
+        "width": 33,
+        "height": 44,
+        "x": 66,
+        "y": 352,
+        "pixelRatio": 1
+    },
+    "harvester": {
+        "width": 33,
+        "height": 44,
+        "x": 165,
+        "y": 88,
+        "pixelRatio": 1
+    },
+    "raider_cache": {
+        "width": 33,
+        "height": 44,
+        "x": 165,
+        "y": 264,
+        "pixelRatio": 1
+    },
+    "high_loot": {
+        "width": 33,
+        "height": 44,
+        "x": 264,
+        "y": 88,
+        "pixelRatio": 1
+    },
+    "low_loot": {
+        "width": 33,
+        "height": 44,
+        "x": 264,
+        "y": 132,
+        "pixelRatio": 1
+    },
+    "medium_loot": {
+        "width": 33,
+        "height": 44,
+        "x": 33,
+        "y": 176,
+        "pixelRatio": 1
+    }
+}

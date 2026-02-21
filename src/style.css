@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+html,
+body {
+  @apply h-full w-full min-w-full min-h-full;
+}
+
+/* body {
+  background-image: url("/public/testMap.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+} */
+
+::-webkit-scrollbar-track {
+  border-radius: 10px;
+  background-color: transparent;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  @apply bg-zinc-900;
+}

@@ -7,16 +7,16 @@
     "moduleResolution": "node",
     "removeComments": true,
     "strict": true,
-    "noImplicitAny": false,
-    "strictNullChecks": false,
-    "types": [
-      "@overwolf/types"
-    ],
-    "rootDirs": [
-      "./src"
-    ],
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "types": ["@overwolf/types"],
+    "rootDirs": ["./src"],
+    "esModuleInterop": true,
+    "jsx": "react",
+    "paths": {
+      "@/*": ["./src/*"]
+    },
+    "baseUrl": "."
   },
-  "exclude": [
-    "node_modules"
-  ]
+  "exclude": ["node_modules"]
 }
